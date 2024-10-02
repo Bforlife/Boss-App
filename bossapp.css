@@ -1,0 +1,79 @@
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+:root{
+    --buttoncolor:hsl(0, 0%, 85%);
+    --secondarycolor:#31473a;
+    --backgroundcolor:hsl(240, 4%, 73%);
+    --maincolor:#ffffff;
+}
+body
+{
+    background-color: var(--backgroundcolor);
+}
+
+.container-md
+{
+    width: 36%;
+}
+.btn-secondary
+{
+    background-color: var(--buttoncolor);
+}
+
+/* admin dashboard designs */
+
+.lftdashboard
+{
+    background-color: var(--maincolor);
+}
+
+.rgtdashboard
+{
+    background-color: white;
+}
+
+/* user dashboard designs */
+.section1
+{
+    background: var(--maincolor);
+}
+.main_menu
+{
+    color: black;
+}
+
+
+.mainmenu_btn
+{
+    width: 200px;
+}
+.mainmenu_btn:hover {
+   background-color: rgb(123, 123, 110);
+}
+.section2
+{
+    background: hsl(0 0% 97.5%);
+
+}
+.input:focus
+{
+    border-color:hsl(240, 4%, 73%) thin 1px ;
+    outline: none;
+}
+
+.userimg
+{
+    border-radius: 50%;
+    margin-left:70px ;
+}
+
+/* designs for messages.php */
+/* textarea
+{
+    border: none;
+} */
